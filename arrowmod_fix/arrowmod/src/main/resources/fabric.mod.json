@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowmod",
+  "version": "${version}",
+  "name": "Arrow Friends",
+  "description": "Opt-in friend locator, distance HUD, team colors and temporary pings.",
+  "authors": ["ArrowMod"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.arrowmod.ArrowMod"],
+    "client": ["ru.arrowmod.client.ArrowModClient"]
+  },
+  "depends": { "fabricloader": ">=0.14.21", "minecraft": "1.19.4", "java": ">=17", "fabric-api": "*" }
+}
